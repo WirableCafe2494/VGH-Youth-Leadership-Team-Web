@@ -35,6 +35,9 @@
   }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: var(--color-bg-primary);
 }
 
@@ -238,7 +241,15 @@ body.dark-theme .theme-toggle-track .theme-toggle-indicator {
 
 .container {
     display: flex;
+    height: 100vh;
+}
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -268,4 +279,8 @@ h1 {
 p {
     color: var(--color-text-primary);
     padding: 0px 12px 6px;
+}
+
+.main-container .schedule {
+    align-items: center;
 }
