@@ -259,3 +259,13 @@ body.dark-theme .theme-toggle-track .theme-toggle-indicator {
         width: 270px;
     }
 }
+
+h1 {
+    color: var(--color-text-primary);
+    padding: 12px 12px;
+}
+
+p {
+    color: var(--color-text-primary);
+    padding: 0px 12px 6px;
+}
